@@ -1,0 +1,11 @@
+@media (max-width: 1400px) {
+    .country-hotels img {
+        height: 240px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .country-hotels img {
+        height: 180px;
+    }
+}

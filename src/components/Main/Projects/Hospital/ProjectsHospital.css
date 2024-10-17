@@ -1,0 +1,75 @@
+.project-hospital-backgrounds{
+    margin-top: 100px;
+}
+.projects-hospital-content{
+    display: flex;
+    margin: 0 60px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-background {
+    width: 100%;
+    height: 740px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.country-hotels-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 60px;
+}
+.country-hotels{
+    position: relative;
+    display: grid;
+    grid-template-columns: 220px 1.5fr 1fr;
+    gap: 20px;
+}
+.hospital-btn{
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    top: 50px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.121);
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+    color: black;
+}
+.hospital-btn:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -200px;
+    width: 60px;
+    height: 100px;
+    background-color: #6d6d6d;
+    filter: blur(30px);
+    transition: 0.1s;
+    animation-name: slideme;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+
+.hospital-btn:hover{
+    background-color: rgba(0, 0, 0, 0.101);
+    transform: scale(1.1);
+}
+
+.content-info{
+    margin-left: 10%;
+}
+
+.content-country p{
+    margin-top: -28px;
+}

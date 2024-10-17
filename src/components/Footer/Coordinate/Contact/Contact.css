@@ -1,0 +1,39 @@
+.contact-container {
+    margin-left: 140px;
+}
+
+.contact-title1 {
+    font-size: 36px;
+}
+
+.contact-title2 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transform: scale(1);
+    transition: color 0.3s ease;
+    animation: linkAnimation 3s infinite;
+}
+
+.contact-link:hover {
+    color: rgb(77, 77, 77);
+}
+
+@keyframes linkAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

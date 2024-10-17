@@ -1,0 +1,24 @@
+@media (max-width: 1400px) {
+    .swiper-slide img {
+        height: 320px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .swiper-slide img {
+        height: 240px;
+    }
+
+    .btn-next {
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-slide img {
+        height: 140px;
+    }
+    .swiper-slide {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,11 @@
+.projects-title{
+    font-size: 36px;
+    margin: 12px 0 60px 60px;
+}
+
+.main-btn{
+    opacity: 1;
+    border: 1px solid rgb(207, 207, 207);
+    color: rgb(207, 207, 207);
+    animation: none;
+}

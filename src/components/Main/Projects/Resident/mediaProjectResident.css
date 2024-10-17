@@ -1,0 +1,19 @@
+@media (max-width: 1400px) {
+    .projects-title {
+        font-size: 28px;
+        margin: 12px 0 20px 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .projects-title {
+        font-size: 22px;
+        margin: 12px 0 20px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-title {
+        margin: 12px 0 20px 10px;
+    }
+}

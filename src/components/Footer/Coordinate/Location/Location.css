@@ -1,0 +1,27 @@
+.location-title {
+    font-size: 36px;
+}
+
+.location-img {
+    margin-top: 18px;
+}
+
+.location-img img {
+    width: 440px;
+    object-fit: cover;
+    box-shadow: 10px 10px 42px -19px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 42px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 42px -19px rgba(0,0,0,0.75);
+    transition: all 0.3s ease;
+}
+
+.location-img img:hover {
+    box-shadow: -21px -25px 35px -28px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -21px -25px 35px -28px rgba(0,0,0,0.63);
+    -moz-box-shadow: -21px -25px 35px -28px rgba(0,0,0,0.63);
+    transform: translateY(-8px);
+}
+
+.madrid-link {
+    margin-left: 10px;
+}
