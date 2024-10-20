@@ -1,4 +1,4 @@
-@media (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1400px) {
     .main-background {
         height: 580px;
     }
@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .main-background {
         height: 480px;
     }
@@ -37,6 +37,34 @@
     }
 
     .projects-hospital-content{
+        margin: 0 10px;
+        gap: 0;
+    }
+    .country-hotels{
+        grid-template-columns: none;
+        grid-template-rows: 50px 1fr 300px 50px ;
+        gap: 0px;
+        margin-bottom: 35px;
+    }
+    .country-hotels img{
+        height: 100%;
+    }
+    .content-country p{
+        margin: 15px 0 0 10px;
+    }
+    .content-country a{
+        margin-top: -35px;
+    }
+
+    .hospital-btn{
+        margin-left: 10px;
+        grid-row: 4;
+        display: flex;
+        
+        
+        
+    }
+    .content-info{
         margin: 0 10px;
     }
 }

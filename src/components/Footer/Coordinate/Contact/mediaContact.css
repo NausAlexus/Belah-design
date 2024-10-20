@@ -12,4 +12,7 @@
         flex-direction: column;
         align-items: center;
     }
+    .contact-link:hover {
+        color: black;
+    }
 }

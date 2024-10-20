@@ -8,4 +8,8 @@
     .country-hotels img {
         height: 180px;
     }
+    .hospital-btn:hover{
+        background-color: rgba(255, 255, 255, 0.121);
+        transform: scale(1);
+    }
 }

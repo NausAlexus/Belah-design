@@ -9,7 +9,7 @@ const Projects_Swiper = () => {
   return (
     <>
       <Swiper
-        slidesPerView={2.1}
+        // slidesPerView={2.1}
         spaceBetween={30}
         autoplay={{
           delay: 3500,
@@ -19,6 +19,16 @@ const Projects_Swiper = () => {
         navigation={true}
         modules={[Autoplay, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          0: {
+            slidesPerView: 1.3,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2.1,
+            spaceBetween: 30,
+          },
+        }}
       >
         {SLIDER.map((slide) => (
           <SwiperSlide key={slide.id}>
