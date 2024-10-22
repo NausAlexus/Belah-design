@@ -44,22 +44,6 @@
     transition: all ease 0.5s;
     color: black;
 }
-.hospital-btn:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -200px;
-    width: 60px;
-    height: 100px;
-    background-color: #6d6d6d;
-    filter: blur(30px);
-    transition: 0.1s;
-    animation-name: slideme;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    
-}
 
 .hospital-btn:hover{
     background-color: rgba(0, 0, 0, 0.101);
